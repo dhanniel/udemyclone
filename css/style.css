@@ -183,3 +183,75 @@ input {
     padding-top: 1rem;
     line-height: 1.4rem;
 }
+
+.footer__container {
+    width: 100%;
+    height:350px;
+    background-color: black;
+    margin-top: 20px;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer__container1 {
+    display: flex;
+    flex-direction: column;
+    padding:15px;
+    gap:3rem;
+}
+
+.footer__container__sub11 {
+    display:flex;
+    gap: 140px;
+}
+
+.footer__container__sub11 li {
+    list-style: none;
+}
+
+.footer__container__sub11 ul {
+    padding:15px;
+    line-height: 2rem;
+    font-size: small;
+
+}
+
+.footer__container__sub21 {
+    padding: 15px;
+    padding-bottom:60px;
+}
+
+.footer__container__sub21 {
+    position:relative;
+    width:15px;
+}
+
+.footer__world {
+    width:15px;
+    position:absolute;
+    top:25px;
+    left:25px;
+}
+
+.footer__container2 {
+    align-items: right;
+    padding: 15px;
+    margin-right: 50px;
+}
+
+.footer__english {
+    padding:10px 40px;
+    background-color: black;
+    color:white;
+    border:1px solid white;
+}
+
+.footer__container__sub22 {
+    font-size:x-small;
+    margin-top: 150px;
+    margin-right: 60px;
+    background-color: red;
+    padding:10px 40px;
+}
+
