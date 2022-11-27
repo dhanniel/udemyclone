@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+
+.logo {
+    height:100%;
+    max-width: 100%;
+}
+
+.logo-holder {
+    width:100px;
+    height:auto;
+}
+
+header {
+    width:100%;
+    height:9vh;
+}
+
+.navbar {
+    position:sticky;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2.5rem 2.5rem;
+    height:100%;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid grey;
+}
+
+.navbar__nav__items {
+    display: flex;
+    gap:20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.head__cat {
+    color: black;
+    background:transparent;
+    border: none;
+    text-decoration: none;
+    font-size: smaller;
+}
+
+.head__bus {
+    color: black;
+    background:transparent;
+    border: none;
+    text-decoration: none;
+    font-size: smaller;
+}
+
+
+.head__cart {
+    color: black;
+    background:transparent;
+    border: none;
+    text-decoration: none;
+    width:25px;
+    height:auto;
+}
+
+.head__teach {
+    color: black;
+    background:transparent;
+    border: none;
+    text-decoration: none;
+    font-size: smaller;
+}
+ .navbar__nav__items a:hover {
+    color:rgb(125, 25, 218);
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.head__search__input {
+    padding: 0 0 0 0.4rem;
+    background:transparent;
+    border: 1px solid black;
+    height:3rem;
+    border-radius: 60px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    width:42rem;
+    
+}
+
+.head__button__container {
+    display: flex;
+    gap:3px;
+}
+
+input {
+    text-rendering:auto ;
+    writing-mode:horizontal-tb;
+    letter-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow:none;
+    text-align: start;
+    cursor: text;
+    color: #1c1d1f;
+}
+
+.head__world {
+    width:20px;
+    border: 1px solid black;
+}
+
+.head__but__log {
+    padding: 0 0 0 0.4rem;
+    background:white;
+    border: 1px solid black;
+    height:3rem;
+    text-align: center;
+    width:6rem;
+}
+
+.head__but__sign {
+    padding: 0 0 0 0.4rem;
+    background:black;
+    color: white;
+    border: none;
+    height:3rem;
+    text-align: center;
+    width:6rem;
+}
+
+.head__but__world {
+    padding: 0 0 0 0.4rem;
+    background:white;
+    border: 1px solid black;
+    height:3rem;
+    align-items: center;
+    justify-content: center;
+    width:2.5rem;
+    padding-top:8px;
+    padding-left:-15px
+}
+
+.section1 {
+    width:90vh;
+    position: relative;
+}
+.section1__image {
+    width:1350px;
+    height:auto;
+    margin-left: 100px;
+    margin-top: 4px;
+}
+
+.section1__image1 {
+    width:100%;
+    height:100%;
+}
+
+
+.section1__cyber {
+    position:absolute;
+    top:100px;
+    left:200px;
+    background-color: white;
+    padding:15px;
+    line-height:2.3rem;
+    font-size: 1.3rem;;
+}
+
+.section1__p {
+    padding-top: 1rem;
+    line-height: 1.4rem;
+}
