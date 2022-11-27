@@ -184,11 +184,119 @@ input {
     line-height: 1.4rem;
 }
 
+.team__container {
+    width:100%;
+    height:62vh;
+    background-color:white;
+    display:flex;
+    gap:70px;
+    align-items: center;
+    justify-content: center;
+}
+
+.team__pic__container {
+    width:400px;
+    height: auto;
+}
+
+.team__pic {
+    width:100%;
+    height:100%;
+}
+
+.team__description__container {
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+
+.team__description {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color:rgba(144, 20, 144, 0.899)
+}
+
+.team__h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.team__p2__container {
+    display: flex;
+    gap:10px;
+}
+
+.team__p21 {
+    background-color: #1c1d1f;
+    color: white;
+    padding: 10px 12px;
+}
+
+.team__p22 {
+    background-color: white;
+    color: black;
+    border:1px solid black;
+    font-size: 1rem;
+    padding: 10px 10px;
+    
+}
+
+.team__list__benefit {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left:20px;
+    line-height: 1.6rem;
+    font-size: 1rem;
+}
+
+.instructor__container {
+    width:100%;
+    height:62vh;
+    background-color:white;
+    display:flex;
+    gap:70px;
+    align-items: center;
+    justify-content: center;
+}
+
+.instructor__pic__container {
+    width:400px;
+    height: auto;
+}
+
+.instructor__pic {
+    width:100%;
+    height:100%;
+}
+
+.instructor__h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.instructor__p1 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.instructor__p2 {
+    font-size: 1.3rem;
+    color: white;
+    background-color: black;
+    padding:1rem 0;
+}
+
+.instructor__p2__container {
+    width:11.6rem;
+    margin-bottom: 25px;
+}
+
 .footer__container {
     width: 100%;
     height:350px;
     background-color: black;
-    margin-top: 20px;
+    border-top:1px solid #3e4143;
+    margin-top: 0px;
     color: white;
     display:flex;
     justify-content: space-between;
