@@ -184,6 +184,96 @@ input {
     line-height: 1.4rem;
 }
 
+.section__2__container {
+    padding: 2rem 7rem;
+}
+
+.section__2__container > h3 {
+    font-size: 1.6rem;
+}
+
+.checked {
+    color:orange;
+}
+
+.section__2__container a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.section__2__div {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.section__2__container > p {
+    padding-top: 1rem;
+}
+
+.career__container {
+    width:150vh;
+    border:1px solid grey;
+    padding:3rem;
+    margin: 0.2rem 6rem;
+    box-shadow: #3e4143;
+}
+
+.career__container__p {
+    margin-top: 0.5rem;
+    line-height: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.career__container button {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 1.5rem;
+}
+
+.explore__container {
+    display:flex;
+    flex-direction: column;
+    gap:0.5rem;
+    font-weight: 700;
+}
+
+.explore__container a {
+    text-decoration: none;
+    color:black;
+    word-spacing: 0.2rem;
+}
+
+.explore__container p {
+    font-weight: 200;
+    color:grey;
+    font-size: 0.85rem;
+}
+
+.explore {
+    display:flex;
+    gap:10px;
+}
+
+.explore__container img{
+    border:1px solid grey;
+}
+.span1 {
+    color:rgb(177, 117, 6);
+}
+
+.span2 {
+    color:grey;
+}
+
+.span3 {
+    color:grey;
+    text-decoration: line-through;
+}
+
 .top__category__container {
     width:100%;
     height:90vh;
